@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.typing-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+#textarea {
+    max-width: 45rem;
+    width: 45rem;
+    height: 12rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    resize: none;
+    outline: none;
+}
+
+#btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    background: rgb(10, 187, 128);
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+}
+
+#btn:hover {
+    border-bottom: 0.1rem solid #000;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 6rem;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: rgb(3, 29, 20);
+    text-align: center;
+}
+
+
+.para,
+.score {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.score {
+    border-bottom: 0.2rem solid rgb(10, 187, 128);
+    border-radius: 3rem;
+    margin-top: 4rem;
+}
